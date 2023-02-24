@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    display: flex;
+    background-color: #afe5a7;
+}
+#Landing-page {
+    max-width: 1440px;
+    height: 1024px;
+
+
+}
+#hero {
+    filter: contrast(75%);
+    filter:brightness(75%);
+    align-items: flex-start;
+    background-image: url(Taq-e\ Bostan.jpg);
+    background-color: rgb(74, 78, 78);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 1024px;
+    padding: 17.5 26px;
+    width: 1440px;
+    
+}
+.title {
+    
+    align-self: center;
+    font-family: Roboto Serif, serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 22px;
+    margin-right:1px;
+    min-height: 74px;
+    min-width: 535px;
+    font-size: 63px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+.overlap-group1 {
+  padding: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 42px;
+  color: hsl(183, 100%, 63%);
+  align-items: flex-start;
+  display: flex;
+  gap: 127px;
+  height: 42px;
+  margin-left: 11px;
+  margin-top: 0;
+  min-width: 1258px;
+}
+.description {
+    margin-top: 252px;
+  width: 1000px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  color: #2aeee7;
+}
+#map {
+    position: absolute;
+    left: 1000px;
+    top: 750px;
+    width: 150px;
+    height: 75px;
+    background: #012703;
+    box-shadow: 0px 0px 4px 5px rgba(253, 255, 153, 0.6),
+      0px 0px 4px 10px rgba(5, 100, 77, 0.25),
+      0px 0px 4px 15px rgba(15, 124, 158, 0.5);
+    border-radius: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #e0e323;
+  }
+#row-images {
+   
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  gap: 20px;
+  
+
+    
+}
+.item {
+    border-radius: 20px;
+    width: 260px;
+    margin:5px;
+    padding: 10px;
+}
+
+.img-name {
+      
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 20px;
+  
+     
+  }
+  
+.name {
+    width: 260px;
+    margin:5px;
+    padding: 10px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 25px;
+    width: 1440px;
+    margin-bottom: 2px;
+}
+#footer {
+    margin-bottom: 2px;
+    background-color: #6101ba;
+  width: 1440px;
+  height: 96px;
+  left: 292px;
+  top: 1654px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  color: #afe5a7;
+}
